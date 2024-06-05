@@ -1,3 +1,6 @@
+# Faça um programa que solicite ao usuário o nome de um arquivo de texto e então calcule e apresente o 
+# seu tamanho em bytes e o número de linhas do arquivo. 
+
 def main() -> None:
     # solicitar o nome do arquivo ao usuário
     nome_arq = input('Nome Do Arquivo: ')
