@@ -11,6 +11,7 @@ def main() -> None:
     escrita = input('Escreva algo no arquivo (*Enter* para parar): ')
     while escrita != '':
         arq.write(escrita)
+        arq.write('\n')
         escrita = input('Escreva algo no arquivo (*Enter* para parar): ')
     # Fechar o arquivo
     arq.close()
