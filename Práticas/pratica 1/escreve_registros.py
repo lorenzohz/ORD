@@ -9,7 +9,7 @@ def main() -> None:
         cidade = input('Cidade: ')
         estado = input('Estado: ')
         cep = input('CEP: ')
-        buffer = (campo + '|' + endereco + '|' + cidade + '|' + estado + '|' + cep + '|')
+        buffer = (campo + '|' + nome + '|' + endereco + '|' + cidade + '|' + estado + '|' + cep + '|')
 
         buffer = buffer.encode() #type: ignore
         tam = len(buffer)
