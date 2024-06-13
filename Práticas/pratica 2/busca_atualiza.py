@@ -37,7 +37,7 @@ def main() -> None:
                 rrn = int(input("Número do registro à ser modificado: "))
                 achou = busca_rrn(arq, rrn)
                 if not achou:
-                    print("Erro, não foi possível encontrar o registro desejado!")
+                    print("\nErro, não foi possível encontrar o registro desejado!\n")
                 else:
                     confirmacao = input("\nDeseja modificar esse registro (S/N): ")
                     if confirmacao == "S":
